@@ -39,13 +39,13 @@ const farms: FarmConfig[] = [
     risk: 3,
     lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
-      97: '',
-      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
+      97: '0xe0e92035077c39594793e61802a350347c320cf2',
+      56: '',
     },
     tokenSymbol: 'BNB',
     tokenAddresses: {
       97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      56: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
