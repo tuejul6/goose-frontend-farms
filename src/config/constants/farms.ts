@@ -2,8 +2,24 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
-  {
+   {
     pid: 0,
+    risk: 3,
+    lpSymbol: 'BNB-BUSD LP',
+    lpAddresses: {
+      97: '0xe0e92035077c39594793e61802a350347c320cf2',
+      56: '',
+    },
+    tokenSymbol: 'BNB',
+    tokenAddresses: {
+      97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
+      56: '',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 1,
     risk: 5,
     lpSymbol: 'EGG-BUSD LP',
     lpAddresses: {
@@ -34,22 +50,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-  {
-    pid: 2,
-    risk: 3,
-    lpSymbol: 'BNB-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
-    },
-    tokenSymbol: 'BNB',
-    tokenAddresses: {
-      97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
+ 
   {
     pid: 3,
     risk: 1,
