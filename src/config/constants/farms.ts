@@ -2,18 +2,19 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
+  
   {
     pid: 0,
-    risk: 5,
-    lpSymbol: 'EGG-BUSD LP',
+    risk: 3,
+    lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
-      97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      97: '0xe0e92035077c39594793e61802a350347c320cf2',
+      56: '',
     },
-    tokenSymbol: 'EGG',
+    tokenSymbol: 'BNB',
     tokenAddresses: {
-      97: '',
-      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+      97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
+      56: '',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
