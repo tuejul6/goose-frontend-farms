@@ -23,7 +23,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'HOMER-BUSD',
     lpAddresses: {
-      97: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
+      97: '0x897155a02e5a610d7dd035cf2620d6972d025d80',
       56: '',
     },
     tokenSymbol: 'HOMER',
