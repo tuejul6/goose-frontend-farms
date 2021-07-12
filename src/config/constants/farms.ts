@@ -16,7 +16,7 @@ const farms: FarmConfig[] = [
       56: '',
     },
     quoteTokenSymbol: QuoteToken.HOMER,
-    quoteTokenAdresses: contracts.HOMERToken,
+    quoteTokenAdresses: contracts.HOMER,
   },
   {
     pid: 1,
