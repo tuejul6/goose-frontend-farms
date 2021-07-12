@@ -50,6 +50,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 3,
+    risk: 3,
+    lpSymbol: 'GIRLS',
+    lpAddresses: {
+      97: '0x3b8EC572e56Cf7Ad299494f28488d1dFA4F0B933',
+      56: '',
+    },
+    tokenSymbol: 'BNB',
+    tokenAddresses: {
+      97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
+      56: '',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
 
 ]
 

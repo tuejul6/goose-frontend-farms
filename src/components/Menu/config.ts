@@ -29,7 +29,7 @@ const config: MenuEntry[] = [
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: '#',
+    href: '/pools',
   },
   {
     label: 'Lottery',
