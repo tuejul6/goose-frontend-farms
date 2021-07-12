@@ -2,6 +2,22 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
+    {
+    pid: 0,
+    risk: 3,
+    lpSymbol: 'HOMER',
+    lpAddresses: {
+      97: '0xeaBdE99A1DD264849886ffF11A7fBe5637ed6Fa6',
+      56: '',
+    },
+    tokenSymbol: 'HOMER',
+    tokenAddresses: {
+      97: '0xeaBdE99A1DD264849886ffF11A7fBe5637ed6Fa6',
+      56: '',
+    },
+    quoteTokenSymbol: QuoteToken.HOMER,
+    quoteTokenAdresses: contracts.HOMERToken,
+  },
   {
     pid: 1,
     risk: 5,
