@@ -7,15 +7,15 @@ import {
   PancakeTheme,
   SvgProps as svgProps,
 } from '@pancakeswap-libs/uikit'
-
+/*
 // customize light theme
 const light: PancakeTheme = lightBase
 light.card.background = '#334a52'
-light.card.boxShadowActive = '#fff'
+// light.card.boxShadowActive = '#fff'
 light.nav.hover = '#4287f5'
 light.colors.text = '#fff000'
 light.colors.textSubtle = '#fff'
-light.colors.dropdown = '#4287f5'
+// light.colors.dropdown = '#4287f5'
 light.colors.backgroundAlt = '#334a52'
 light.colors.background = '#334a52'
 light.colors.secondary = '#334a52'
@@ -30,7 +30,7 @@ light.colors.contrast = '#334a52'
 light.colors.input = '#1a272b'
 light.colors.primary = '#4287f5'
 light.colors.invertedContrast = '#4287f5'
-
+*/
 const dark: PancakeTheme = darkBase
 dark.card.background = '#334a52'
 dark.card.boxShadowActive = '#fff'
